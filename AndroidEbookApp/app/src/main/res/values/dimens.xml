@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="navigation_drawer_width">320dp</dimen>
+
+</resources>

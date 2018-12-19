@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+     <!-- Back will display always -->
+    <item android:id="@+id/menu_back"
+          android:icon="@drawable/ic_back"
+          android:title="@string/menu_back"
+          app:showAsAction="never"/>
+
+    <!-- next -->
+
+    <item android:id="@+id/menu_next"
+          android:icon="@drawable/ic_forward"
+          android:title="@string/menu_next"
+          app:showAsAction="never"/>
+    
+    <!-- Favirote -->
+    
+      <item android:id="@+id/menu_fav"
+          android:icon="@drawable/ic_bookmark_outline"
+          android:title="@string/menu_fav"
+          app:showAsAction="always"/>
+          
+       <!-- Share -->
+		<item android:id="@+id/menu_share"
+			   android:icon="@drawable/ic_share_white_48dp"
+			   android:title="@string/menu_share"
+               app:showAsAction="always"/>
+    
+</menu>
